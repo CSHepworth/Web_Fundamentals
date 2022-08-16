@@ -1,0 +1,30 @@
+body {
+    background-color: #eef1f4;
+    color: #4a4c4e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.prof_pic1 {
+    height: 15%;
+    width: 15%;
+}
+a.anchor1 {
+    color: #0070bb;
+}
+div.mylinks {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #b4bbc1;
+    width: 75px;
+    height: 45px;
+}
+a.anchor1:hover {
+    background-color: #0070bb;
+    color: #fff;
+}
