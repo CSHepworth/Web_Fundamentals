@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+#main_header {
+    text-align: center;
+}
+img {
+    height: 200px;
+}
+div {
+    padding: 5px;
+    margin: 5px;
+}
+#firstdiv {
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+}
+#seconddiv {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+#thirddiv {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+#credit {
+    text-align: center;
+}
+#credit_link {
+    color: blue;
+}
+#credit_link:hover {
+    background-color: blue;
+    color: #fff;
+}
