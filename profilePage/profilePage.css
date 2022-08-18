@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #fff;
+}
+div.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header_left {
+    text-decoration: none;
+    color: #d4dadf;
+    font-size: 25px;
+    padding: 10px;
+}
+.header_left:hover {
+    background-color: #b4bbc1;
+    color: #000;
+}
+.header_right a {
+    text-decoration: none;
+    color: #d4dadf;
+    font-size: 18px;
+    padding: 10px;
+}

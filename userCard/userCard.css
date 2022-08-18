@@ -22,9 +22,10 @@ div.card {
     top: -45px;
     left: 0px;
     width: 80px;
+    margin-bottom: -50px;
 }
 #name {
-    margin-top: -50px;
+    margin-top: 0px;
 }
 #location {
     display: flex;

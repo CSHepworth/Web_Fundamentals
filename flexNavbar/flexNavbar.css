@@ -33,3 +33,10 @@ a {
 a:hover {
     color: #fff;
 }
+div.sidebar {
+    position: fixed;
+    top: auto;
+    right: 0;
+    width: 33%;
+    background-color: #000;
+}
