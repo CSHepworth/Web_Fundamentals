@@ -1,0 +1,35 @@
+body {
+    background-color: #fff;
+}
+div.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4a4c4e;
+    color: #fff;
+    padding: 10px;
+}
+#profile {
+    font-size: 25px;
+}
+div.navbarRight {
+    display: flex;
+    gap: 10px;
+}
+#sign_out {
+    margin-right: 15px;
+    background-color: blue;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    margin: 5px;
+    color: #d4dadf;
+}
+a:hover {
+    color: #fff;
+}
