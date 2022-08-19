@@ -1,0 +1,63 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Favorite Button Style */
+  .btn {
+    font-size: 18px;
+    background-color: #27a1f2;
+    color: #fff;
+    padding: 2px;
+}
+
+/* Flexible Row */
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Flexible Columns */
+div.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: royalblue;
+    color: #fff;
+}
+div.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: royalblue;
+    color: #fff;
+}
+div.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: royalblue;
+    color: #fff;
+}
+
+/* Navbar */
+div.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4a4c4e;
+    color: #fff;
+    padding: 10px;
+}
