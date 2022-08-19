@@ -6,14 +6,112 @@
         <link rel="stylesheet" href="profilePage.css">
     </head>
     <body>
-        <div class="header">
-            <a id="header_left" class="header_left" href="">Profile</a>
-            <div id="header_right" class="header_right">
-                <a href="">Home</a>
-                <a href="">My Profile</a>
-                <a href="">Find Connections</a>
-                <button id="sign_out" type="submit">Sign Out</button>
-            </div>            
+        <div class="headerBanner">
+            <div class="header">
+                <a id="header_left" class="header_left" href="">Profile</a>
+                <div id="header_right" class="header_right">
+                    <a href="">Home</a>
+                    <a href="">My Profile</a>
+                    <a href="">Find Connections</a>
+                    <button id="sign_out" type="submit">Sign Out</button>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="leftCol">
+                <div class="profCard">
+                    <div class="banner"> 
+                    </div>
+                    <div class="card">
+                        <img id="prof_pic" src="user-circle.png" alt="user-circle">
+                        <h2 id="name">Abe Froman</h2>
+                        <div id="location">
+                            <img id="map_marker" src="map-marker.png" alt="map-marker">
+                            <h3>Chicago</h3>
+                        </div>
+                        <p>Royalty | Entrepreneur | Sausage Conoisseur</p>
+                        <p>The Sausage King of Chicago</p>
+                        <div>
+                            <a id="edit_prof" href=""><img id="gear" src="gear.png" alt="gear">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="eduCard">
+                    <div class="eduCardBanner">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="eduCardContent">
+                        <h2 id="eduh2">Coding Dojo - Full Stack Bootcamp</h2>
+                        <h3 id="eduh3">Aug 2022 - Nov 2022</h3>
+                        <h2 id="eduh2">Proficiencies</h2>
+                        <h3 id="eduh3">Excel Wizard, Python Handler, Rtist</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="rightCol">
+                <div class="reqCard">
+                    <div class="reqCardBanner">
+                        <h3>Connection Requests</h3>
+                    </div>
+                    <div class="reqCardContent">
+                        <div class="req">
+                            <div class="conProfName">
+                                <img id="conProf" src="user-circle.png" alt="conProf">
+                                <p>Todd E</p>
+                            </div>
+                            <div class="yn">
+                                <img id="accept" src="accept-circle.png" alt="accept-circle">
+                                <img id="close" src="close-circle.png" alt="close-circle">
+                            </div>
+                        </div>
+                        <div class="req">
+                            <div class="conProfName">
+                                <img id="conProf" src="user-circle.png" alt="conProf">
+                                <p>Phil K</p>
+                            </div>
+                            <div class="yn">
+                                <img id="accept" src="accept-circle.png" alt="accept-circle">
+                                <img id="close" src="close-circle.png" alt="close-circle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conCard">
+                    <div class="conCardBanner">
+                        <h3>Connections</h3>
+                    </div>
+                    <div class="conCardContent">
+                        <div class="req">
+                            <div class="conProfName">
+                                <img id="conProf" src="user-circle.png" alt="conProf">
+                                <p>Nick R</p>
+                            </div>
+                        </div>
+                        <div class="req">
+                            <div class="conProfName">
+                                <img id="conProf" src="user-circle.png" alt="conProf">
+                                <p>Sam H</p>
+                            </div>
+                        </div>
+                        <div class="req">
+                            <div class="conProfName">
+                                <img id="conProf" src="user-circle.png" alt="conProf">
+                                <p>Charles C</p>
+                            </div>
+                        </div>
+                        <div class="req">
+                            <div class="conProfName">
+                                <img id="conProf" src="user-circle.png" alt="conProf">
+                                <p>Eric H</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conCardFooter">
+                        <a id="viewMore" href="">View More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
+

@@ -1,21 +1,36 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color: #fff;
 }
+div.headerBanner {
+    background-color: #000;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 div.header {
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
-    width: 100%;
+    width: 80%;
     position: fixed;
     top: 0;
     left: 0;
+    padding: 0px 10% 0px 10%;
+}
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header_left {
+    justify-self: start;
     text-decoration: none;
     color: #d4dadf;
     font-size: 25px;
@@ -25,9 +40,193 @@ div.header {
     background-color: #b4bbc1;
     color: #000;
 }
+.header_right {
+    justify-self: end;
+}
 .header_right a {
     text-decoration: none;
     color: #d4dadf;
     font-size: 18px;
     padding: 10px;
+}
+.header_right a:hover {
+    background-color: #b4bbc1;
+    color: #000;
+}
+#sign_out {
+    font-size: 18px;
+    background-color: #27a1f2;
+    color: #fff;
+    padding: 2px;
+}
+div.main {
+    display: flex;
+    width: 80%;
+    margin: 0px 10%;
+    gap: 20px;
+}
+div.leftCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 85px;
+    left: 0px;
+    flex: 3;
+}
+div.profCard {
+    display: block;
+    width: auto;
+    color: #000;
+}
+div.banner {
+    background-color: #4a4c4e;
+    width: inherit;
+    height: 60px;
+}
+div.card {
+    width: inherit;
+    border: solid 3px #4a4c4e;
+    padding: 0px 30px 15px;
+    background-color: #fff; 
+}
+#prof_pic {
+    position: relative;
+    top: -45px;
+    left: 0px;
+    width: 80px;
+    margin-bottom: -50px;
+}
+#name {
+    margin-top: 0px;
+}
+#location {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+#map_marker {
+    width: 10px;
+}
+#gear {
+    width: 15px;
+}
+#edit_prof {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    margin: 5px 0px;
+    color: #27a1f2;
+}
+div.eduCard {
+    display: block;
+    width: auto;
+    color: #000;
+    margin: 25px 0px;
+}
+div.eduCardBanner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 25px;
+    background-color: #4a4c4e;
+    color: #d4dadf;
+    width: inherit;
+    height: 50px;
+}
+div.eduCardContent {
+    width: inherit;
+    border: solid 3px #4a4c4e;
+    padding: 0px 30px 15px;
+    background-color: #fff; 
+}
+#eduh3 {
+    color: #4a4c4e;
+}
+div.rightCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 85px;
+    left: 0px;
+    flex: 2;
+}
+div.reqCard {
+    display: block;
+    width: auto;
+    color: #000;
+}
+div.reqCardBanner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: #4a4c4e;
+    color: #d4dadf;
+    width: inherit;
+    height: 50px;
+}
+div.reqCardContent {
+    width: inherit;
+    border: solid 3px #4a4c4e;
+    padding: 0px 30px;
+    background-color: #fff; 
+}
+div.req {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+div.conProfName {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 7px;
+}
+div.yn {
+    display: flex;
+    gap: 5px;
+}
+#conProf {
+    width: 20px;
+}
+#accept {
+    width: 20px;
+}
+#close {
+    width: 20px;
+}
+div.conCard {
+    display: block;
+    width: auto;
+    color: #000;
+    margin: 25px 0px;
+}
+div.conCardBanner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: #4a4c4e;
+    color: #d4dadf;
+    width: inherit;
+    height: 50px;
+}
+div.conCardContent {
+    width: inherit;
+    border: solid 3px #4a4c4e;
+    padding: 0px 30px;
+    background-color: #fff;
+}
+div.conCardFooter {
+    width: inherit;
+    border: solid 3px #4a4c4e;
+    border-top: 0px;
+    padding: 15px;
+    background-color: #fff;
+}
+#viewMore {
+    color: #27a1f2;
 }
