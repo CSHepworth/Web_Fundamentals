@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #fff;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #101010;
+}
+.innerHeader {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#headerLogo {
+    color: #fff;
+}
+#searchBar {
+    width: 300px;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+#login {
+    background-color: #27a1f2;
+    font-size: 25px;
+    padding: 5px;
+}
+.main {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+    gap: 20px;
+}
+.mainLeftCol {
+    flex: 3;
+}
+.mainRightCol {
+    flex: 2;
+
+}
+.defCard {
+    display: flex;
+    border: solid 3px #101010;
+    padding: 20px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+}
+.defCardLeftCol {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    gap: 5px;
+}
+.defCardRightCol {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    padding: 30px;
+}
+#word {
+    color: #101010;
+}
+#partOfSpeech {
+    color: #4a4c4e;
+    font-style: italic;
+}
+#likeButton {
+    font-size: 20px;
+    width: auto;
+}
+#definition {
+    font-size: 20px;
+}
+.addDef {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 3px #101010;
+    padding: 30px;
+    gap: 25px;
+}
+#addDefHead {
+    font-size: 35px;
+}
+#addDefButton {
+    font-size: 30px;
+    width: auto;
+}

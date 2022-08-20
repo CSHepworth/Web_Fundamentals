@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dojonary - ninja</title>
+        <link rel="stylesheet" href="buttonClicker.css">
+        <script src="buttonClicker.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="innerHeader">
+                <h1 id="headerLogo">Dojonary</h1>
+                <form>
+                    <input type="search" name="searchBar" id="searchBar" placeholder="Search Dojonary">
+                </form>
+                <button onclick="changeLogout(this)" id="login" type="submit">Login</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainLeftCol">
+                <div class="defCard">
+                    <div class="defCardLeftCol">
+                        <h1 id="word">ninja</h1>
+                        <h3 id="partOfSpeech">noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button id="likeButton" type="submit" onclick="alert('This Definition was liked')">13 Likes</button>
+                    </div>
+                    <div class="defCardRightCol">
+                        <p id="definition">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="defCard">
+                    <div class="defCardLeftCol">
+                        <h1 id="word">ninja</h1>
+                        <h3 id="partOfSpeech">noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button id="likeButton" type="submit" onclick="alert('This Definition was liked')">37 Likes</button>
+                    </div>
+                    <div class="defCardRightCol">
+                        <p id="definition">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainRightCol">
+                <div class="addDef">
+                    <h2 id="addDefHead">Dojonary is defined by YOU</h2>
+                    <button id="addDefButton" type="submit" onclick="hideButton(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
