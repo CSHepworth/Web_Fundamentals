@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+}
+body {
+    background-color: #fff;
+}
+.commentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    padding: 10px 30px;
+    border: solid 1px #000;
+    width: fit-content;
+    gap: 10px;
+}
+.commentBoxTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    height: 50%;
+}
+.likeBox {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.commentTextBox {
+    height: 50%;
+}
+#likeButton {
+    font-size: 20px;
+    padding: 5px 7px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 5px;
+}
+#likeButton:hover {
+    background-color: blue;
+    color: #fff;
+}
+#likeText {
+    display: flex;
+    gap: 4px;
+}
+#likes {
+    
+}
+#comment {
+    font-size: 20px;
+}
