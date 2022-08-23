@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Profile Page</title>
         <link rel="stylesheet" href="profilePage.css">
+        <script src="profilePage.js"></script>
     </head>
     <body>
         <div class="headerBanner">
@@ -32,7 +33,8 @@
                         <p>Royalty | Entrepreneur | Sausage Conoisseur</p>
                         <p>The Sausage King of Chicago</p>
                         <div>
-                            <a id="edit_prof" href=""><img id="gear" src="gear.png" alt="gear">edit profile</a>
+                            <img id="gear" src="gear.png" alt="gear">
+                            <a href="#" onclick="editProf('#name'); return false;">edit profile</a>
                         </div>
                     </div>
                 </div>
@@ -54,24 +56,24 @@
                         <h3>Connection Requests</h3>
                     </div>
                     <div class="reqCardContent">
-                        <div class="req">
+                        <div id="req1" class="req">
                             <div class="conProfName">
                                 <img id="conProf" src="user-circle.png" alt="conProf">
                                 <p>Todd E</p>
                             </div>
                             <div class="yn">
-                                <img id="accept" src="accept-circle.png" alt="accept-circle">
-                                <img id="close" src="close-circle.png" alt="close-circle">
+                                <img onclick="removeReq('#req1')" id="accept" src="accept-circle.png" alt="accept-circle">
+                                <img onclick="removeReq('#req1')" id="close" src="close-circle.png" alt="close-circle">
                             </div>
                         </div>
-                        <div class="req">
+                        <div id="req2" class="req">
                             <div class="conProfName">
                                 <img id="conProf" src="user-circle.png" alt="conProf">
                                 <p>Phil K</p>
                             </div>
                             <div class="yn">
-                                <img id="accept" src="accept-circle.png" alt="accept-circle">
-                                <img id="close" src="close-circle.png" alt="close-circle">
+                                <img onclick="removeReq('#req2')" id="accept" src="accept-circle.png" alt="accept-circle">
+                                <img onclick="removeReq('#req2')" id="close" src="close-circle.png" alt="close-circle">
                             </div>
                         </div>
                     </div>

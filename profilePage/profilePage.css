@@ -172,6 +172,7 @@ div.reqCardContent {
     border: solid 3px #4a4c4e;
     padding: 0px 30px;
     background-color: #fff; 
+    min-height: 45px;
 }
 div.req {
     display: flex;
