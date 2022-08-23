@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dojo Weather</title>
+        <link rel="stylesheet" href="dojoWeather.css">
+        
+    </head>
+    <body>
+        <div class="header">
+            <div class="innerHeader">
+                <h1 class="headerLogo">DojoWeather</h1>
+                <div class="citiesBlock">
+                    <a class="city" href="#" onclick="alert('Loading Weather Report...'); return false;">Seoul</a>
+                    <a class="city" href="#" onclick="alert('Loading Weather Report...'); return false;">Bangladesh</a>
+                    <a class="city" href="#" onclick="alert('Loading Weather Report...'); return false;">Sri Lanka</a>
+                </div>
+            </div>
+        </div>
+        <div class="mainHeader">
+            <div class="mainHeaderInner">
+                <h2 id="displayedCity">Singapore</h2>
+                <div class="selectDegreesBox">
+                    <h3>show temperature in</h3>
+                    <form>
+                        <select onchange="changeDegrees(this)" name="selectDegrees" id="selectDegrees">
+                            <option value="F">F°</option>
+                            <option value="C">C°</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div id="todayWeatherCard" class="weatherCard">
+                <h3>Today</h3>
+                <img class="weatherIMG" src="some_rain.png" alt="some_rain">
+                <p>some rain</p>
+                <div class="tempBox">
+                    <div class="highTemp"><p id="todayHigh" class="temperature">24</p><p>°</p></div>
+                    <div class="lowTemp"><p id="todayLow" class="temperature">18</p><p>°</p></div>
+                </div>
+            </div>
+            <div id="tomorrowWeatherCard" class="weatherCard">
+                <h3>Tomorrow</h3>
+                <img class="weatherIMG" src="some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="tempBox">
+                    <div class="highTemp"><p id="tomorrowHigh" class="temperature">27</p><p>°</p></div>
+                    <div class="lowTemp"><p id="tomorrowLow" class="temperature">19</p><p>°</p></div>
+                </div>
+            </div>
+            <div id="FridayWeatherCard" class="weatherCard">
+                <h3>Friday</h3>
+                <img class="weatherIMG" src="some_clouds.png" alt="some_clouds">
+                <p>some clouds</p>
+                <div class="tempBox">
+                    <div class="highTemp"><p id="fridayHigh" class="temperature">21</p><p>°</p></div>
+                    <div class="lowTemp"><p id="fridayLow" class="temperature">16</p><p>°</p></div>
+                </div>
+            </div>
+            <div id="SaturdayWeatherCard" class="weatherCard">
+                <h3>Saturday</h3>
+                <img class="weatherIMG" src="some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="tempBox">
+                    <div class="highTemp"><p id="saturdayHigh" class="temperature">26</p><p>°</p></div>
+                    <div class="lowTemp"><p id="saturdayLow" class="temperature">21</p><p>°</p></div>
+                </div>
+            </div>
+        </div>
+        <div id="cookieBox" class="cookieBox">
+            <div class="cookieBoxLeft">
+                <img id="cookieIMG" src="cookie.png" alt="cookie">
+                <div class="cookieBoxText">
+                    <h2>Stop! Cookie time</h2>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to improve social media features, and to analyze our traffic <a href="">Read More...</a></a></p>
+                </div>
+            </div>
+            <button id="acceptCookies" class="acceptCookies" onclick="removeCookies('#cookieBox')">I accept</button>
+        </div>
+    </body>
+    <script src="dojoWeather.js"></script>
+</html>
